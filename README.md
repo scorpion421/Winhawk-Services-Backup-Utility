@@ -8,3 +8,5 @@ Backup/Restore Windhawk Settings/Mods written in Python (3.10)
 • Backups mods/registry to .zip
 
 • Restores everything from the .zip
+
+This script is inspired by the work of https://github.com/ramensoftware/windhawk/issues/195#issuecomment-3184189085
