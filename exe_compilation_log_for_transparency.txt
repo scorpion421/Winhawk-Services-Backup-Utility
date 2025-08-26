@@ -1,3 +1,6 @@
+Made with https://pypi.org/project/auto-py-to-exe/
+------------
+
 Running auto-py-to-exe v2.46.0
 Building directory: C:\Users\Claymore\AppData\Local\Temp\tmpe1625ng4
 Provided command: pyinstaller --noconfirm --onefile --windowed  "C:\Users\Claymore\Desktop\winhawk_backup.py"
