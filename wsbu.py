@@ -1,5 +1,5 @@
 # =============================================================================
-#  Windhawk Service Management Utility - Version 2.1
+#  Windhawk Service Management Utility - Version 2.1.1
 #  Author: scorpion421
 #  Description: A tool for backing up and restoring Windhawk configurations.
 # =============================================================================
@@ -140,7 +140,7 @@ def execute_restore_operation(windhawk_root_path, backup_zip_path):
 class WindhawkManagerApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Windhawk Service Management Utility v2.1")
+        self.root.title("Windhawk Service Management Utility v2.1.1")
         self.root.geometry("700x500")
         self.root.minsize(600, 450)
         
