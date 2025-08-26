@@ -16,8 +16,8 @@ import sys
 
 # --- APPLICATION CONSTANTS ---
 # Define paths with environment variables as templates
-_BACKUP_FOLDER_TEMPLATE = r"%userprofile%\Documents\Winhawk_Backup"
-_WINDHAWK_ROOT_TEMPLATE = r"%programdata%\windhawk"
+_BACKUP_FOLDER_TEMPLATE = r"%userprofile%\Documents\Windhawk_Backup"
+_WINDHAWK_ROOT_TEMPLATE = r"%programdata%\Windhawk"
 
 # Expand environment variables to get the actual, usable paths
 DEFAULT_BACKUP_FOLDER = os.path.expandvars(_BACKUP_FOLDER_TEMPLATE)
