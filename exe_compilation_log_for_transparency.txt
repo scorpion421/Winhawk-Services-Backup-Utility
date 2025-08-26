@@ -1,0 +1,76 @@
+Running auto-py-to-exe v2.46.0
+Building directory: C:\Users\Claymore\AppData\Local\Temp\tmpe1625ng4
+Provided command: pyinstaller --noconfirm --onefile --windowed  "C:\Users\Claymore\Desktop\winhawk_backup.py"
+Recursion Limit is set to 5000
+Executing: pyinstaller --noconfirm --onefile --windowed C:\Users\Claymore\Desktop\winhawk_backup.py --distpath C:\Users\Claymore\AppData\Local\Temp\tmpe1625ng4\application --workpath C:\Users\Claymore\AppData\Local\Temp\tmpe1625ng4\build --specpath C:\Users\Claymore\AppData\Local\Temp\tmpe1625ng4
+
+163519 INFO: PyInstaller: 6.15.0, contrib hooks: 2025.8
+163532 INFO: Python: 3.10.9
+163547 INFO: Platform: Windows-10-10.0.26100-SP0
+163564 INFO: Python environment: C:\Users\Claymore\AppData\Local\Programs\Python\Python310
+163579 INFO: wrote C:\Users\Claymore\AppData\Local\Temp\tmpe1625ng4\winhawk_backup.spec
+163596 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\Claymore\\Desktop\\WHB',
+ 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\python310.zip',
+ 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\DLLs',
+ 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\lib',
+ 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310',
+ 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages',
+ 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\win32',
+ 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\win32\\lib',
+ 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\Pythonwin',
+ 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\setuptools\\_vendor',
+ 'C:\\Users\\Claymore\\Desktop',
+ 'C:\\Users\\Claymore\\Desktop',
+ 'C:\\Users\\Claymore\\Desktop']
+164093 INFO: checking Analysis
+164111 INFO: Building Analysis because Analysis-02.toc is non existent
+164127 INFO: Running Analysis Analysis-02.toc
+164128 INFO: Target bytecode optimization level: 0
+164129 INFO: Reusing cached module dependency graph...
+164156 INFO: Initializing module graph hook caches...
+164185 INFO: Looking for Python shared library...
+164209 INFO: Using Python shared library: C:\Users\Claymore\AppData\Local\Programs\Python\Python310\python310.dll
+164219 INFO: Analyzing C:\Users\Claymore\Desktop\winhawk_backup.py
+164239 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+164315 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+164374 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+164391 INFO: Processing module hooks (post-graph stage)...
+164404 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+164864 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+164873 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+164889 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks'
+164912 INFO: Performing binary vs. data reclassification (923 entries)
+164967 INFO: Looking for ctypes DLLs
+164984 INFO: Analyzing run-time hooks ...
+164998 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+165014 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\Claymore\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+165046 INFO: Creating base_library.zip...
+165105 INFO: Looking for dynamic libraries
+165254 INFO: Extra DLL search directories (AddDllDirectory): []
+165262 INFO: Extra DLL search directories (PATH): []
+165504 INFO: Warnings written to C:\Users\Claymore\AppData\Local\Temp\tmpe1625ng4\build\winhawk_backup\warn-winhawk_backup.txt
+165526 INFO: Graph cross-reference written to C:\Users\Claymore\AppData\Local\Temp\tmpe1625ng4\build\winhawk_backup\xref-winhawk_backup.html
+165548 INFO: checking PYZ
+165560 INFO: Building PYZ because PYZ-02.toc is non existent
+165576 INFO: Building PYZ (ZlibArchive) C:\Users\Claymore\AppData\Local\Temp\tmpe1625ng4\build\winhawk_backup\PYZ-02.pyz
+165780 INFO: Building PYZ (ZlibArchive) C:\Users\Claymore\AppData\Local\Temp\tmpe1625ng4\build\winhawk_backup\PYZ-02.pyz completed successfully.
+165801 INFO: checking PKG
+165810 INFO: Building PKG because PKG-02.toc is non existent
+165826 INFO: Building PKG (CArchive) winhawk_backup.pkg
+167497 INFO: Building PKG (CArchive) winhawk_backup.pkg completed successfully.
+167514 INFO: Bootloader C:\Users\Claymore\AppData\Local\Programs\Python\Python310\lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+167527 INFO: checking EXE
+167543 INFO: Building EXE because EXE-02.toc is non existent
+167559 INFO: Building EXE from EXE-02.toc
+167575 INFO: Copying bootloader EXE to C:\Users\Claymore\AppData\Local\Temp\tmpe1625ng4\application\winhawk_backup.exe
+167603 INFO: Copying icon to EXE
+167609 INFO: Copying 0 resources to EXE
+167622 INFO: Embedding manifest in EXE
+167640 INFO: Appending PKG archive to EXE
+167657 INFO: Fixing EXE headers
+167721 INFO: Building EXE from EXE-02.toc completed successfully.
+167743 INFO: Build complete! The results are available in: C:\Users\Claymore\AppData\Local\Temp\tmpe1625ng4\application
+
+Moving project to: C:\Users\Claymore\Desktop\WHB\output
+Complete.
